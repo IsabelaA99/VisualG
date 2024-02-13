@@ -1,0 +1,19 @@
+Algoritmo "pagamento"
+
+Var
+   nome: caractere
+   pagamento: real
+   valorHora: real
+   horasTrab: real
+   
+Inicio
+    escreval("nome:")
+    leia (nome)
+    escreval("Horas trabalhadas:")
+    leia(horasTrab)
+    escreval("Valor por hora:")
+    leia(valorHora)
+
+    pagamento <- valorHora * horasTrab
+
+    escreval("O pagamento para ", nome," deve ser:", pagamento :9:2)
