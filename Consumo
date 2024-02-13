@@ -1,0 +1,17 @@
+Algoritmo "consumo"
+
+Var
+  distancia:real
+  combustivelGasto:real
+  consumoMedio: real
+
+Inicio
+   escreval("Distância percorrida:")
+   leia(distancia)
+   escreval("Combustível gasto:")
+   leia(combustivelGasto)
+   consumoMedio <- distancia/ combustivelGasto
+   escreval("Consumo médio: " , consumoMedio:9:3)
+
+
+Fimalgoritmo
